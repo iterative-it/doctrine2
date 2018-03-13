@@ -15,14 +15,20 @@
     "config": {
         "sort-packages": true
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/iterative-it/dbal.git"
+        }
+    ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.0",
         "ext-pdo": "*",
         "doctrine/annotations": "~1.5",
         "doctrine/cache": "~1.6",
         "doctrine/collections": "^1.4",
         "doctrine/common": "^2.7.1",
-        "doctrine/dbal": "^2.6",
+        "doctrine/dbal": "dev-php7.0",
         "doctrine/instantiator": "~1.1",
         "symfony/console": "~3.0|~4.0"
     },
